@@ -39,12 +39,12 @@ assets:
 js:
   %dir.dest.javascript%/app.vendor.js:
     # jQuery
-      - %dir.vendor%/jquery/dist/jquery.js
-  
-      # Bootstrap
-      - %dir.vendor%/bootstrap-sass/assets/javascripts/bootstrap/tab.js
-      - %dir.vendor%/bootstrap-sass/assets/javascripts/bootstrap/modal.js
-      - %dir.vendor%/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js
+    - %dir.vendor%/jquery/dist/jquery.js
+
+    # Bootstrap
+    - %dir.vendor%/bootstrap-sass/assets/javascripts/bootstrap/tab.js
+    - %dir.vendor%/bootstrap-sass/assets/javascripts/bootstrap/modal.js
+    - %dir.vendor%/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js
 ```
 
 ### Gruntfile.js
