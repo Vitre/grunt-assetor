@@ -37,7 +37,7 @@ assets:
   - js
 
 js:
-  %dir.dest.javascript%/site.vendor.js:
+  %dir.dest.javascript%/app.vendor.js:
     # jQuery
       - %dir.vendor%/jquery/dist/jquery.js
   
